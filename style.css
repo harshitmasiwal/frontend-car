@@ -162,3 +162,16 @@ body, html {
     background-color: rgba(0, 0, 0, 0.8);
   }
   
+  .model-card a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Keeps the text color the same as the parent */
+    display: block; /* Makes the whole area clickable */
+  }
+  
+  .model-card a:hover {
+    /* Optionally, add hover effects here if needed */
+    opacity: 1; /* Slight transparency on hover */
+    color: rgb(255, 148, 148);
+    
+  }
+  
